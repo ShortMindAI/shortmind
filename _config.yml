@@ -1,0 +1,14 @@
+# GitHub Pages Jekyll configuration
+theme: null
+plugins: []
+
+# Site metadata
+title: ShortMind
+description: AI Programming Assistant Management Platform
+url: https://shortmind-ai.github.io
+author: ShortMind Team
+
+# Build settings
+markdown: kramdown
+include: ['.nojekyll']
+exclude: ['README.md', 'node_modules']
