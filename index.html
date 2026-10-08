@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- 基础 SEO -->
-    <title>ShortMind - AI编程助手统一管理平台 | 提升开发效率</title>
-    <meta name="description" content="ShortMind是一个AI编程助手统一管理平台，支持ChatGPT、Claude、DeepSeek等10+款AI工具一键切换。集中管理API Key、统计使用成本、智能任务路由，让开发效率提升50%。">
-    <meta name="keywords" content="AI编程助手,AI工具管理,代码生成,编程效率,ChatGPT,Claude,DeepSeek,开发工具,工作流自动化">
+    <title>ShortMind - AI Programming Assistant Management Platform | Boost Development Efficiency</title>
+    <meta name="description" content="ShortMind is a unified AI programming assistant management platform. Switch between ChatGPT, Claude, DeepSeek and 10+ AI tools instantly. Centralize API Key management, track usage costs, and boost development efficiency by 50%.">
+    <meta name="keywords" content="AI programming assistant, AI tool management, code generation, development efficiency, ChatGPT, Claude, DeepSeek, developer tools, workflow automation">
     <meta name="author" content="ShortMind Team">
     <meta name="copyright" content="© 2024 ShortMind. All rights reserved.">
     
     <!-- Open Graph (社交媒体分享) -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="ShortMind - AI编程助手统一管理平台">
-    <meta property="og:description" content="统一管理10+款AI编程助手，一键切换，集中管理API Key和配置，让开发效率提升50%。">
+    <meta property="og:title" content="ShortMind - AI Programming Assistant Management Platform">
+    <meta property="og:description" content="Unified management of 10+ AI programming assistants, instant switching, centralized API Key management, 50% increase in development efficiency.">
     <meta property="og:url" content="https://github.com/shortmind-ai/shortmind">
     <meta property="og:site_name" content="ShortMind">
     <meta property="og:image" content="https://raw.githubusercontent.com/shortmind-ai/shortmind/main/assets/og-image.png">
@@ -24,15 +24,16 @@
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ShortMind - AI编程助手统一管理平台">
-    <meta name="twitter:description" content="统一管理多个AI编程助手，提升开发效率50%。">
+    <meta name="twitter:title" content="ShortMind - AI Programming Assistant Management Platform">
+    <meta name="twitter:description" content="Unified management of AI programming assistants, boost your development efficiency.">
     <meta name="twitter:image" content="https://raw.githubusercontent.com/shortmind-ai/shortmind/main/assets/og-image.png">
     
     <!-- 规范链接 -->
     <link rel="canonical" href="https://github.com/shortmind-ai/shortmind">
     
     <!-- 语言声明 -->
-    <link rel="alternate" hreflang="zh-CN" href="https://github.com/shortmind-ai/shortmind">
+    <link rel="alternate" hreflang="en" href="https://github.com/shortmind-ai/shortmind">
+    <link rel="alternate" hreflang="zh-CN" href="https://github.com/shortmind-ai/shortmind/zh">
     <link rel="alternate" hreflang="x-default" href="https://github.com/shortmind-ai/shortmind">
     
     <!-- Favicon -->
@@ -50,7 +51,7 @@
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": "ShortMind",
-        "description": "AI编程助手统一管理平台，支持多个AI工具一键切换，提升开发效率",
+        "description": "AI programming assistant unified management platform supporting multiple AI tools with instant switching and centralized management",
         "url": "https://github.com/shortmind-ai/shortmind",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Windows, macOS, Linux",
@@ -71,12 +72,12 @@
             "ratingCount": "240"
         },
         "featureList": [
-            "AI工具统一管理",
-            "一键快速切换",
-            "API Key集中管理",
-            "使用量统计",
-            "智能任务路由",
-            "跨平台支持"
+            "Unified AI tool management",
+            "Instant tool switching",
+            "Centralized API Key management",
+            "Usage statistics and cost tracking",
+            "Intelligent task routing",
+            "Cross-platform support"
         ]
     }
     </script>
@@ -89,7 +90,7 @@
         "name": "ShortMind",
         "url": "https://shortmind.ai",
         "logo": "https://raw.githubusercontent.com/shortmind-ai/shortmind/main/assets/logo.svg",
-        "description": "AI编程助手统一管理平台",
+        "description": "AI programming assistant unified management platform",
         "sameAs": [
             "https://github.com/shortmind-ai/shortmind",
             "https://twitter.com/shortmindai"
@@ -99,34 +100,6 @@
             "contactType": "Customer Support",
             "url": "https://shortmind.ai"
         }
-    }
-    </script>
-    
-    <!-- Breadcrumb 导航 -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://github.com/shortmind-ai/shortmind"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Features",
-                "item": "https://github.com/shortmind-ai/shortmind#features"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "GitHub",
-                "item": "https://github.com/shortmind-ai/shortmind"
-            }
-        ]
     }
     </script>
 
@@ -245,6 +218,35 @@
             display: flex;
             align-items: center;
             gap: 12px;
+        }
+
+        .lang-selector {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.02);
+            border: 1px solid var(--line);
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+
+        .lang-selector:hover {
+            background: rgba(255,255,255,0.04);
+        }
+
+        .lang-selector select {
+            background: transparent;
+            border: none;
+            color: inherit;
+            cursor: pointer;
+            font-size: inherit;
+            font-weight: 600;
+        }
+
+        .lang-selector select:focus {
+            outline: none;
         }
 
         .btn {
@@ -717,19 +719,6 @@
             font-size: 0.88rem;
         }
 
-        /* SEO友好的隐藏文本 */
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
-        }
-
         /* 响应式设计 */
         @media (max-width: 980px) {
             .hero-wrap {
@@ -778,21 +767,28 @@
 <body>
     <header class="topbar">
         <div class="container nav">
-            <a href="#" class="brand" aria-label="ShortMind - AI编程助手统一管理平台">
+            <a href="#" class="brand" aria-label="ShortMind - AI Programming Assistant Management Platform">
                 <span class="brand-mark"></span>
                 <span>ShortMind</span>
             </a>
 
-            <nav class="nav-links" aria-label="主导航">
-                <a href="#features" title="查看核心功能">功能</a>
-                <a href="#solutions" title="了解适用场景">方案</a>
-                <a href="#why" title="为什么选择ShortMind">优势</a>
-                <a href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer" title="访问GitHub仓库">GitHub</a>
+            <nav class="nav-links" aria-label="main navigation">
+                <a href="#features" data-i18n="nav_features">Features</a>
+                <a href="#solutions" data-i18n="nav_solutions">Solutions</a>
+                <a href="#why" data-i18n="nav_why">Why</a>
+                <a href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer">GitHub</a>
             </nav>
 
             <div class="nav-actions">
-                <a class="btn btn-secondary" href="https://shortmind.ai" target="_blank" rel="noreferrer" title="访问ShortMind官网">官网</a>
-                <a class="btn btn-primary" href="https://shortmind.ai" target="_blank" rel="noreferrer" title="立即体验ShortMind平台">立即体验</a>
+                <div class="lang-selector">
+                    <span>🌐</span>
+                    <select id="langSelect" onchange="changeLang(this.value)">
+                        <option value="en">English</option>
+                        <option value="zh">中文</option>
+                    </select>
+                </div>
+                <a class="btn btn-secondary" href="https://shortmind.ai" target="_blank" rel="noreferrer" data-i18n="btn_website">Website</a>
+                <a class="btn btn-primary" href="https://shortmind.ai" target="_blank" rel="noreferrer" data-i18n="btn_try">Try Now</a>
             </div>
         </div>
     </header>
@@ -800,49 +796,48 @@
     <main>
         <section class="hero" itemscope itemtype="https://schema.org/SoftwareApplication">
             <meta itemprop="name" content="ShortMind">
-            <meta itemprop="description" content="AI编程助手统一管理平台，支持多个AI工具一键切换，提升开发效率">
             <meta itemprop="url" content="https://github.com/shortmind-ai/shortmind">
             
             <div class="container hero-wrap">
                 <div>
-                    <div class="eyebrow">AI Tools for Developers</div>
+                    <div class="eyebrow" data-i18n="eyebrow">AI Tools for Developers</div>
                     <h1>
-                        让 AI 工作流<br/>
-                        <span class="gradient-text">更统一、更高效</span>
+                        <span data-i18n="hero_title_1">Make AI Workflows</span><br/>
+                        <span class="gradient-text" data-i18n="hero_title_2">More Unified & Efficient</span>
                     </h1>
-                    <p class="lead">
-                        ShortMind 统一管理多个 AI 编程助手、模型服务和开发工作流，
-                        让你的编程、调试、设计和内容生成更快速、更稳定、更具协作性。
+                    <p class="lead" data-i18n="hero_desc">
+                        ShortMind unifies multiple AI programming assistants, model services and development workflows,
+                        making your coding, debugging, design and content generation faster, more stable and more collaborative.
                     </p>
 
                     <div class="hero-actions">
-                        <a class="btn btn-primary" href="https://shortmind.ai" target="_blank" rel="noreferrer" title="访问ShortMind官网了解更多">访问官网</a>
-                        <a class="btn btn-secondary" href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer" title="查看ShortMind开源源码">查看源码</a>
+                        <a class="btn btn-primary" href="https://shortmind.ai" target="_blank" rel="noreferrer" data-i18n="btn_visit">Visit Website</a>
+                        <a class="btn btn-secondary" href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer" data-i18n="btn_code">View Source</a>
                     </div>
 
                     <div class="hero-stats">
                         <div class="stat">
                             <strong>10+</strong>
-                            <span>AI 工具支持</span>
+                            <span data-i18n="stat_tools">AI Tools Support</span>
                         </div>
                         <div class="stat">
                             <strong>50%</strong>
-                            <span>流程效率提高</span>
+                            <span data-i18n="stat_efficiency">Efficiency Boost</span>
                         </div>
                         <div class="stat">
                             <strong>24/7</strong>
-                            <span>随时可用</span>
+                            <span data-i18n="stat_available">Always Available</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="hero-visual" aria-label="ShortMind 仪表盘预览">
-                    <div class="dashboard" role="img" aria-label="ShortMind工作台界面演示">
+                <div class="hero-visual" aria-label="ShortMind dashboard preview">
+                    <div class="dashboard" role="img" aria-label="ShortMind workspace interface demo">
                         <div class="dashboard-top">
                             <div class="traffic">
-                                <span class="dot red" aria-label="关闭"></span>
-                                <span class="dot yellow" aria-label="最小化"></span>
-                                <span class="dot green" aria-label="最大化"></span>
+                                <span class="dot red" aria-label="Close"></span>
+                                <span class="dot yellow" aria-label="Minimize"></span>
+                                <span class="dot green" aria-label="Maximize"></span>
                             </div>
                             <div style="color: var(--muted); font-size: 0.82rem;">ShortMind / Workspace</div>
                         </div>
@@ -867,22 +862,22 @@
                                         <div class="metrics">
                                             <div class="metric">
                                                 <strong>98.2%</strong>
-                                                <span>稳定性</span>
+                                                <span data-i18n="metric_stability">Stability</span>
                                             </div>
                                             <div class="metric">
                                                 <strong>1.2s</strong>
-                                                <span>平均响应</span>
+                                                <span data-i18n="metric_response">Avg Response</span>
                                             </div>
                                             <div class="metric">
                                                 <strong>42</strong>
-                                                <span>任务处理</span>
+                                                <span data-i18n="metric_tasks">Tasks Handled</span>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="panel-card">
                                         <div class="title-row">
-                                            <span>Connected tools</span>
+                                            <span data-i18n="connected_tools">Connected tools</span>
                                         </div>
                                         <ul class="list">
                                             <li class="item">
@@ -910,45 +905,45 @@
         <section class="section" id="features">
             <div class="container">
                 <div class="section-head">
-                    <h2>核心功能</h2>
-                    <p>把多种 AI 能力整合成一个可控、可扩展的工作台</p>
+                    <h2 data-i18n="features_title">Core Features</h2>
+                    <p data-i18n="features_desc">Integrate multiple AI capabilities into one controllable, scalable workspace</p>
                 </div>
 
                 <div class="feature-grid">
                     <article class="feature">
                         <div class="feature-icon" aria-hidden="true">⚡</div>
-                        <h3>快速切换</h3>
-                        <p>一键切换不同 AI 助手，避免重复登录和反复配置，减少工具切换带来的中断。</p>
+                        <h3 data-i18n="feature_1_title">Quick Switch</h3>
+                        <p data-i18n="feature_1_desc">Switch between different AI assistants with one click, avoiding repeated login and configuration.</p>
                     </article>
 
                     <article class="feature">
                         <div class="feature-icon" aria-hidden="true">🔐</div>
-                        <h3>统一管理</h3>
-                        <p>集中管理模型、令牌、环境变量和调用配置，让团队协作更规范、更可靠。</p>
+                        <h3 data-i18n="feature_2_title">Unified Management</h3>
+                        <p data-i18n="feature_2_desc">Centralize management of models, tokens, environment variables and call configurations for better team collaboration.</p>
                     </article>
 
                     <article class="feature">
                         <div class="feature-icon" aria-hidden="true">📊</div>
-                        <h3>使用统计</h3>
-                        <p>实时观察调用量、成本和服务状态，从容控制 AI 使用预算，提升可视化管理能力。</p>
+                        <h3 data-i18n="feature_3_title">Usage Tracking</h3>
+                        <p data-i18n="feature_3_desc">Monitor call volume, costs and service status in real-time to control AI usage budget effectively.</p>
                     </article>
 
                     <article class="feature">
                         <div class="feature-icon" aria-hidden="true">🧠</div>
-                        <h3>智能路由</h3>
-                        <p>将不同任务智能分配到最合适的模型与服务，最大化效率，并减少低质量输出。</p>
+                        <h3 data-i18n="feature_4_title">Smart Routing</h3>
+                        <p data-i18n="feature_4_desc">Automatically assign different tasks to the most suitable models and services for maximum efficiency.</p>
                     </article>
 
                     <article class="feature">
                         <div class="feature-icon" aria-hidden="true">📁</div>
-                        <h3>工作流协同</h3>
-                        <p>支持开发、设计、文档、总结与代码生成的统一工作流，提升团队协同效率。</p>
+                        <h3 data-i18n="feature_5_title">Workflow Sync</h3>
+                        <p data-i18n="feature_5_desc">Support unified workflows for development, design, documentation, summarization and code generation.</p>
                     </article>
 
                     <article class="feature">
                         <div class="feature-icon" aria-hidden="true">🛡️</div>
-                        <h3>安全可靠</h3>
-                        <p>敏感配置和 Key 管理更加集中，旨在降低配置错误和安全不透明带来的风险。</p>
+                        <h3 data-i18n="feature_6_title">Secure & Reliable</h3>
+                        <p data-i18n="feature_6_desc">Centralized sensitive configuration and Key management to reduce configuration errors and security risks.</p>
                     </article>
                 </div>
             </div>
@@ -957,26 +952,26 @@
         <section class="section" id="why">
             <div class="container">
                 <div class="section-head">
-                    <h2>为什么选择 ShortMind</h2>
-                    <p>让 AI 工具从"零散集合"变成"高效工作台"</p>
+                    <h2 data-i18n="why_title">Why Choose ShortMind</h2>
+                    <p data-i18n="why_desc">Transform scattered AI tools into an efficient workstation</p>
                 </div>
 
                 <div class="why-grid">
                     <div class="reason">
                         <strong>50%</strong>
-                        <span>开发效率提高</span>
+                        <span data-i18n="reason_1">Efficiency Gain</span>
                     </div>
                     <div class="reason">
                         <strong>10+</strong>
-                        <span>支持多种 AI 服务</span>
+                        <span data-i18n="reason_2">AI Services</span>
                     </div>
                     <div class="reason">
                         <strong>1</strong>
-                        <span>集中统一入口</span>
+                        <span data-i18n="reason_3">Unified Entry</span>
                     </div>
                     <div class="reason">
                         <strong>24/7</strong>
-                        <span>随时可用</span>
+                        <span data-i18n="reason_4">Always Ready</span>
                     </div>
                 </div>
             </div>
@@ -985,27 +980,27 @@
         <section class="section" id="solutions">
             <div class="container">
                 <div class="section-head">
-                    <h2>适用场景</h2>
-                    <p>适合个人开发者、团队协作和 AI 工作流管理</p>
+                    <h2 data-i18n="solutions_title">Use Cases</h2>
+                    <p data-i18n="solutions_desc">Perfect for individual developers, team collaboration and AI workflow management</p>
                 </div>
 
                 <div class="feature-grid">
                     <article class="feature">
                         <div class="feature-icon" aria-hidden="true">💻</div>
-                        <h3>个人开发者</h3>
-                        <p>在一个入口中切换不同模型与 AI 助手，减少设置复杂度，让开发更聚焦。</p>
+                        <h3 data-i18n="solution_1_title">Individual Developer</h3>
+                        <p data-i18n="solution_1_desc">Switch between different models and AI assistants in one interface, reducing setup complexity.</p>
                     </article>
 
                     <article class="feature">
                         <div class="feature-icon" aria-hidden="true">👥</div>
-                        <h3>团队协作</h3>
-                        <p>集中管理 AI 配置，统一工程标准，使项目成员使用同一套工作方式与流程。</p>
+                        <h3 data-i18n="solution_2_title">Team Collaboration</h3>
+                        <p data-i18n="solution_2_desc">Centralize AI configuration and establish unified engineering standards across team members.</p>
                     </article>
 
                     <article class="feature">
                         <div class="feature-icon" aria-hidden="true">🚀</div>
-                        <h3>AI 工作流</h3>
-                        <p>把编程、设计、文档和执行任务串联起来，提升智能工作流结构与效率。</p>
+                        <h3 data-i18n="solution_3_title">AI Workflow</h3>
+                        <p data-i18n="solution_3_desc">Connect coding, design, documentation and execution tasks into an intelligent workflow structure.</p>
                     </article>
                 </div>
             </div>
@@ -1014,14 +1009,14 @@
         <section class="cta">
             <div class="container">
                 <div class="cta-box">
-                    <h2>准备好接入更高效的 AI 工作流了吗？</h2>
-                    <p>
-                        ShortMind 让多模型管理从复杂变简单。现在就访问官网，了解更多信息并体验一站式 AI 工作台。
+                    <h2 data-i18n="cta_title">Ready for a More Efficient AI Workflow?</h2>
+                    <p data-i18n="cta_desc">
+                        ShortMind makes multi-model management simple. Visit the website now to learn more and experience an all-in-one AI workstation.
                     </p>
 
                     <div class="cta-actions">
-                        <a class="btn btn-primary" href="https://shortmind.ai" target="_blank" rel="noreferrer" title="立即访问官网">访问官网</a>
-                        <a class="btn btn-secondary" href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer" title="查看GitHub仓库">GitHub 仓库</a>
+                        <a class="btn btn-primary" href="https://shortmind.ai" target="_blank" rel="noreferrer" data-i18n="cta_visit">Visit Website</a>
+                        <a class="btn btn-secondary" href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer" data-i18n="cta_github">GitHub Repo</a>
                     </div>
                 </div>
             </div>
@@ -1035,39 +1030,204 @@
                     <span class="brand-mark"></span>
                     <span>ShortMind</span>
                 </div>
-                <p>让 AI 编程助手更统一、更高效、更可控。开源、免费、持续更新。</p>
+                <p data-i18n="footer_desc">Make AI programming assistants more unified, efficient and controllable.</p>
             </div>
 
             <div class="footer-links">
                 <div class="footer-col">
-                    <h4>产品</h4>
-                    <a href="#features" title="查看核心功能">功能</a>
-                    <a href="#solutions" title="了解适用场景">场景</a>
-                    <a href="#why" title="了解为什么选择ShortMind">优势</a>
+                    <h4 data-i18n="footer_product">Product</h4>
+                    <a href="#features" data-i18n="nav_features">Features</a>
+                    <a href="#solutions" data-i18n="nav_solutions">Solutions</a>
+                    <a href="#why" data-i18n="nav_why">Why</a>
                 </div>
 
                 <div class="footer-col">
-                    <h4>资源</h4>
-                    <a href="https://shortmind.ai" target="_blank" rel="noreferrer" title="访问ShortMind官网">官网</a>
-                    <a href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer" title="查看GitHub源码">GitHub</a>
-                    <a href="https://shortmind.ai" target="_blank" rel="noreferrer" title="查看使用文档">文档</a>
+                    <h4 data-i18n="footer_resources">Resources</h4>
+                    <a href="https://shortmind.ai" target="_blank" rel="noreferrer" data-i18n="btn_website">Website</a>
+                    <a href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer">GitHub</a>
+                    <a href="https://shortmind.ai" target="_blank" rel="noreferrer" data-i18n="footer_docs">Docs</a>
                 </div>
 
                 <div class="footer-col">
-                    <h4>联系</h4>
-                    <a href="https://shortmind.ai" target="_blank" rel="noreferrer" title="联系我们">联系我们</a>
-                    <a href="https://github.com/shortmind-ai/shortmind/issues" target="_blank" rel="noreferrer" title="提交Issue">Issue</a>
-                    <a href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer" title="为ShortMind做贡献">贡献</a>
+                    <h4 data-i18n="footer_contact">Contact</h4>
+                    <a href="https://shortmind.ai" target="_blank" rel="noreferrer" data-i18n="footer_contact_us">Contact Us</a>
+                    <a href="https://github.com/shortmind-ai/shortmind/issues" target="_blank" rel="noreferrer" data-i18n="footer_issue">Issue</a>
+                    <a href="https://github.com/shortmind-ai/shortmind" target="_blank" rel="noreferrer" data-i18n="footer_contribute">Contribute</a>
                 </div>
             </div>
         </div>
 
         <div class="container copyright">
-            © 2024 ShortMind. All rights reserved. | <a href="https://shortmind.ai" title="ShortMind官网">shortmind.ai</a>
+            <span data-i18n="copyright">© 2024 ShortMind. All rights reserved.</span> | <a href="https://shortmind.ai" data-i18n="btn_website">shortmind.ai</a>
         </div>
     </footer>
 
     <script>
+        // 多语言配置
+        const i18n = {
+            en: {
+                eyebrow: "AI Tools for Developers",
+                hero_title_1: "Make AI Workflows",
+                hero_title_2: "More Unified & Efficient",
+                hero_desc: "ShortMind unifies multiple AI programming assistants, model services and development workflows, making your coding, debugging, design and content generation faster, more stable and more collaborative.",
+                btn_visit: "Visit Website",
+                btn_code: "View Source",
+                btn_website: "Website",
+                btn_try: "Try Now",
+                stat_tools: "AI Tools Support",
+                stat_efficiency: "Efficiency Boost",
+                stat_available: "Always Available",
+                metric_stability: "Stability",
+                metric_response: "Avg Response",
+                metric_tasks: "Tasks Handled",
+                connected_tools: "Connected tools",
+                nav_features: "Features",
+                nav_solutions: "Solutions",
+                nav_why: "Why",
+                features_title: "Core Features",
+                features_desc: "Integrate multiple AI capabilities into one controllable, scalable workspace",
+                feature_1_title: "Quick Switch",
+                feature_1_desc: "Switch between different AI assistants with one click, avoiding repeated login and configuration.",
+                feature_2_title: "Unified Management",
+                feature_2_desc: "Centralize management of models, tokens, environment variables and call configurations for better team collaboration.",
+                feature_3_title: "Usage Tracking",
+                feature_3_desc: "Monitor call volume, costs and service status in real-time to control AI usage budget effectively.",
+                feature_4_title: "Smart Routing",
+                feature_4_desc: "Automatically assign different tasks to the most suitable models and services for maximum efficiency.",
+                feature_5_title: "Workflow Sync",
+                feature_5_desc: "Support unified workflows for development, design, documentation, summarization and code generation.",
+                feature_6_title: "Secure & Reliable",
+                feature_6_desc: "Centralized sensitive configuration and Key management to reduce configuration errors and security risks.",
+                why_title: "Why Choose ShortMind",
+                why_desc: "Transform scattered AI tools into an efficient workstation",
+                reason_1: "Efficiency Gain",
+                reason_2: "AI Services",
+                reason_3: "Unified Entry",
+                reason_4: "Always Ready",
+                solutions_title: "Use Cases",
+                solutions_desc: "Perfect for individual developers, team collaboration and AI workflow management",
+                solution_1_title: "Individual Developer",
+                solution_1_desc: "Switch between different models and AI assistants in one interface, reducing setup complexity.",
+                solution_2_title: "Team Collaboration",
+                solution_2_desc: "Centralize AI configuration and establish unified engineering standards across team members.",
+                solution_3_title: "AI Workflow",
+                solution_3_desc: "Connect coding, design, documentation and execution tasks into an intelligent workflow structure.",
+                cta_title: "Ready for a More Efficient AI Workflow?",
+                cta_desc: "ShortMind makes multi-model management simple. Visit the website now to learn more and experience an all-in-one AI workstation.",
+                cta_visit: "Visit Website",
+                cta_github: "GitHub Repo",
+                footer_desc: "Make AI programming assistants more unified, efficient and controllable.",
+                footer_product: "Product",
+                footer_resources: "Resources",
+                footer_contact: "Contact",
+                footer_docs: "Docs",
+                footer_contact_us: "Contact Us",
+                footer_issue: "Issue",
+                footer_contribute: "Contribute",
+                copyright: "© 2024 ShortMind. All rights reserved."
+            },
+            zh: {
+                eyebrow: "AI 开发者工具",
+                hero_title_1: "让 AI 工作流",
+                hero_title_2: "更统一、更高效",
+                hero_desc: "ShortMind 统一管理多个 AI 编程助手、模型服务和开发工作流，让你的编程、调试、设计和内容生成更快速、更稳定、更具协作性。",
+                btn_visit: "访问官网",
+                btn_code: "查看源码",
+                btn_website: "官网",
+                btn_try: "立即体验",
+                stat_tools: "AI 工具支持",
+                stat_efficiency: "效率提升",
+                stat_available: "随时可用",
+                metric_stability: "稳定性",
+                metric_response: "平均响应",
+                metric_tasks: "任务处理",
+                connected_tools: "已连接工具",
+                nav_features: "功能",
+                nav_solutions: "方案",
+                nav_why: "优势",
+                features_title: "核心功能",
+                features_desc: "把多种 AI 能力整合成一个可控、可扩展的工作台",
+                feature_1_title: "快速切换",
+                feature_1_desc: "一键切换不同 AI 助手，避免重复登录和反复配置，减少工具切换带来的中断。",
+                feature_2_title: "统一管理",
+                feature_2_desc: "集中管理模型、令牌、环境变量和调用配置，让团队协作更规范、更可靠。",
+                feature_3_title: "使用统计",
+                feature_3_desc: "实时观察调用量、成本和服务状态，从容控制 AI 使用预算，提升可视化管理能力。",
+                feature_4_title: "智能路由",
+                feature_4_desc: "将不同任务智能分配到最合适的模型与服务，最大化效率，并减少低质量输出。",
+                feature_5_title: "工作流协同",
+                feature_5_desc: "支持开发、设计、文档、总结与代码生成的统一工作流，提升团队协同效率。",
+                feature_6_title: "安全可靠",
+                feature_6_desc: "敏感配置和 Key 管理更加集中，旨在降低配置错误和安全不透明带来的风险。",
+                why_title: "为什么选择 ShortMind",
+                why_desc: "让 AI 工具从"零散集合"变成"高效工作台"",
+                reason_1: "效率提升",
+                reason_2: "AI 服务",
+                reason_3: "统一入口",
+                reason_4: "随时可用",
+                solutions_title: "适用场景",
+                solutions_desc: "适合个人开发者、团队协作和 AI 工作流管理",
+                solution_1_title: "个人开发者",
+                solution_1_desc: "在一个入口中切换不同模型与 AI 助手，减少设置复杂度，让开发更聚焦。",
+                solution_2_title: "团队协作",
+                solution_2_desc: "集中管理 AI 配置，统一工程标准，使项目成员使用同一套工作方式与流程。",
+                solution_3_title: "AI 工作流",
+                solution_3_desc: "把编程、设计、文档和执行任务串联起来，提升智能工作流结构与效率。",
+                cta_title: "准备好接入更高效的 AI 工作流了吗？",
+                cta_desc: "ShortMind 让多模型管理从复杂变简单。现在就访问官网，了解更多信息并体验一站式 AI 工作台。",
+                cta_visit: "访问官网",
+                cta_github: "GitHub 仓库",
+                footer_desc: "让 AI 编程助手更统一、更高效、更可控。",
+                footer_product: "产品",
+                footer_resources: "资源",
+                footer_contact: "联系",
+                footer_docs: "文档",
+                footer_contact_us: "联系我们",
+                footer_issue: "提交Issue",
+                footer_contribute: "贡献",
+                copyright: "© 2024 ShortMind. 保留所有权利。"
+            }
+        };
+
+        // 获取当前语言
+        function getCurrentLang() {
+            const path = window.location.pathname;
+            if (path.includes('/zh')) {
+                return 'zh';
+            }
+            const stored = localStorage.getItem('shortmind_lang');
+            return stored || 'en';
+        }
+
+        // 更新页面语言
+        function updatePageLanguage(lang) {
+            const elements = document.querySelectorAll('[data-i18n]');
+            elements.forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[lang] && i18n[lang][key]) {
+                    el.textContent = i18n[lang][key];
+                }
+            });
+            
+            // 更新 HTML 语言属性
+            document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+            
+            // 保存语言选择
+            localStorage.setItem('shortmind_lang', lang);
+            
+            // 更新选择器
+            document.getElementById('langSelect').value = lang;
+        }
+
+        // 语言切换函数
+        function changeLang(lang) {
+            updatePageLanguage(lang);
+            
+            // 更新 URL（可选，如果你想改变 URL）
+            // 对于 GitHub Pages，通常不需要改变实际 URL，只需更新内容
+            window.history.replaceState({lang: lang}, '', window.location.pathname);
+        }
+
         // 平滑滚动优化
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -1082,13 +1242,18 @@
             });
         });
 
+        // 页面加载时初始化语言
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentLang = getCurrentLang();
+            updatePageLanguage(currentLang);
+        });
+
         // 页面性能监测 (可选，用于SEO优化)
         if ('PerformanceObserver' in window) {
             try {
                 const observer = new PerformanceObserver((list) => {
                     for (const entry of list.getEntries()) {
                         // 可以用于分析页面性能
-                        console.log(`${entry.name}: ${entry.duration}ms`);
                     }
                 });
                 observer.observe({ entryTypes: ['navigation', 'resource'] });
