@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found | ShortMind</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(110,168,254,0.18), transparent 32%),
+        radial-gradient(circle at top right, rgba(139,92,246,0.18), transparent 28%),
+        linear-gradient(180deg, #08131f 0%, #0a1624 100%);
+      color: #eaf3ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 24px;
+    }
+    .container {
+      max-width: 600px;
+    }
+    h1 {
+      font-size: 4rem;
+      margin: 0 0 16px;
+      font-weight: 900;
+      letter-spacing: -0.06em;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #9db0c6;
+      margin: 0 0 24px;
+    }
+    a {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 8px;
+      border-radius: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #6ea8fe, #8b5cf6);
+      color: white;
+      box-shadow: 0 16px 30px rgba(110,168,254,0.30);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 20px 40px rgba(110,168,254,0.40);
+    }
+    .btn-secondary {
+      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.02);
+      color: #eaf3ff;
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.04);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>404</h1>
+    <p>Oops! The page you're looking for doesn't exist.</p>
+    <div>
+      <a href="/" class="btn-primary">Go Home</a>
+      <a href="https://github.com/shortmind-ai/shortmind" class="btn-secondary" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
