@@ -2,7 +2,7 @@
 
 **AI video clipping and content repurposing. Make more of every long video.**
 
-[中文](README.md) · [Official website](https://shortmind.ai) · [Brand homepage](https://shortmindai.github.io/) · [GitHub repository](https://github.com/ShortMindAI/shortmindai.github.io)
+[中文](README.md) · [Official website](https://shortmind.ai/?source=shortmindai.github.io) · [Brand homepage](https://shortmindai.github.io/) · [GitHub repository](https://github.com/ShortMindAI/shortmindai.github.io)
 
 ![ShortMind workflow turning long videos into scored short clips for social publishing](assets/hero-en-1120.webp)
 
@@ -24,7 +24,7 @@ ShortMind AI is an AI video clipping and content repurposing platform for creato
 | B-roll and publishing copy | Add relevant footage and generate titles, descriptions and hashtags. |
 | Social publishing | Connect editing with TikTok, YouTube Shorts, Instagram Reels, LinkedIn, Facebook and X publishing workflows. |
 
-Built for podcasts, interviews, courses, livestreams, sports content, marketing teams, media agencies and creator networks, especially teams with a long-form video library. Visit the [official website](https://shortmind.ai) for current features, supported platforms and plans.
+Built for podcasts, interviews, courses, livestreams, sports content, marketing teams, media agencies and creator networks, especially teams with a long-form video library. Visit the [official website](https://shortmind.ai/?source=shortmindai.github.io) for current features, supported platforms and plans.
 
 ## How it works
 

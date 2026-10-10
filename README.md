@@ -2,7 +2,7 @@
 
 **AI 视频切片与内容再利用，让一条长视频释放更多价值。**
 
-[English](README.en.md) · [官方网站](https://shortmind.ai) · [品牌主页](https://shortmindai.github.io/) · [GitHub 仓库](https://github.com/ShortMindAI/shortmindai.github.io)
+[English](README.en.md) · [官方网站](https://shortmind.ai/?source=shortmindai.github.io) · [品牌主页](https://shortmindai.github.io/) · [GitHub 仓库](https://github.com/ShortMindAI/shortmindai.github.io)
 
 ![ShortMind 将长视频转换为短视频并进行社媒分发的工作流](assets/hero-zh-1120.webp)
 
@@ -24,7 +24,7 @@ ShortMind AI 是面向创作者、企业和营销团队的 AI 视频切片与内
 | B-Roll 与文案 | 补充相关素材，生成标题、描述与 Hashtag 标签。 |
 | 社媒分发 | 连接剪辑与 TikTok、YouTube Shorts、Instagram Reels、LinkedIn、Facebook、X 等平台的发布流程。 |
 
-适合播客、访谈、课程、电商直播、体育内容、企业营销、媒体机构与 MCN 团队，尤其适合已有长视频素材库的内容团队。当前功能、支持平台与套餐以[官方网站](https://shortmind.ai)为准。
+适合播客、访谈、课程、电商直播、体育内容、企业营销、媒体机构与 MCN 团队，尤其适合已有长视频素材库的内容团队。当前功能、支持平台与套餐以[官方网站](https://shortmind.ai/?source=shortmindai.github.io)为准。
 
 ## 使用流程
 
