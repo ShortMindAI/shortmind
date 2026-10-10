@@ -1,115 +1,85 @@
-# ShortMind
+# ShortMind AI
 
-ShortMind 是一个面向开发者与 AI 工作流的统一管理平台，帮助你集中管理多种 AI 编程助手、模型服务和工具配置，提升开发效率、降低切换成本，并提升团队协作质量 。
+**AI 视频切片与内容再利用，让一条长视频释放更多价值。**
 
-Official Website: https://shortmind.ai
-GitHub: https://github.com/shortmind-ai/shortmind
+[English](README.en.md) · [官方网站](https://shortmind.ai) · [品牌主页](https://shortmindai.github.io/) · [GitHub 仓库](https://github.com/ShortMindAI/shortmindai.github.io)
 
-English / 中文 双语支持
-- English homepage: https://shortmind.ai
-- Chinese homepage: https://shortmind.ai/zh.html
+![ShortMind 将长视频转换为短视频并进行社媒分发的工作流](assets/hero-zh-1120.webp)
 
-## What ShortMind does
+## 关于 ShortMind
 
-- Manage multiple AI programming assistants in one place
-- Switch AI tools quickly without repeated configuration
-- Centralize API keys and model settings
-- Track usage and cost trends
-- Streamline AI workflows for developers and teams
+ShortMind AI 是面向创作者、企业和营销团队的 AI 视频切片与内容再利用平台。它从长视频中发现有传播价值的片段，辅助生成短视频，并将字幕、画面重构、发布文案及社媒分发连接成一个工作流。
 
-## Key values
+「100+ 条潜力短视频」表达产品的内容再利用方向；实际可用片段数量取决于原视频时长、内容与设置，评分不保证播放量或爆款结果。
 
-- Faster work switching across tools
-- Better visibility into model usage and cost
-- Reduced configuration and security risks
-- More consistent AI workflows across team members
+## 核心能力
 
-## Project structure
+| 能力 | 用途 |
+| --- | --- |
+| AI 精彩片段识别 | 根据对话、关键观点与情绪变化发现候选片段，减少人工反复选片。 |
+| Viral Score | 用 0–100 分的预测评分辅助比较片段的钩子、节奏与传播潜力。 |
+| Hook 自动前置 | 将吸引人的内容放到开头，构建更清晰的短视频开场。 |
+| AI 字幕 | 自动生成动态、多语言字幕，选择合适的字幕样式。 |
+| AI Reframe | 识别人脸与主体，适配 9:16、1:1、4:5 等社媒画幅。 |
+| B-Roll 与文案 | 补充相关素材，生成标题、描述与 Hashtag 标签。 |
+| 社媒分发 | 连接剪辑与 TikTok、YouTube Shorts、Instagram Reels、LinkedIn、Facebook、X 等平台的发布流程。 |
 
-```bash
-shortmind/
-├── README.md
-├── index.html
-├── zh.html
-├── assets/
-│   └── og-image.png
-└── docs/
-    └── ...
+适合播客、访谈、课程、电商直播、体育内容、企业营销、媒体机构与 MCN 团队，尤其适合已有长视频素材库的内容团队。当前功能、支持平台与套餐以[官方网站](https://shortmind.ai)为准。
+
+## 使用流程
+
+1. 在官网导入长视频素材。
+2. 查看 AI 推荐片段与评分，调整字幕、开场和画面构图。
+3. 生成适合社媒的短视频，准备发布文案与排期。
+
+## 本仓库
+
+本仓库维护 ShortMind 的静态品牌介绍站点，包含英文首页、中文页面与说明文档。视频处理产品通过官网提供服务。
+
+```text
+index.html            英文首页
+zh.html               中文页面
+404.html              自定义错误页面
+assets/               共享 CSS、WebP 图片、图标和社交分享图
+README.md             中文说明
+README.en.md          英文说明
+robots.txt            爬虫与 sitemap 地址
+sitemap.xml           中英文页面索引
+scripts/build_site.py 页面生成与图片压缩脚本
 ```
 
-## Use cases
+## 本地预览与维护
 
-- Individual developers using multiple AI assistants
-- Product teams coordinating AI workflows
-- Engineering teams standardizing AI tooling
-- Research and prototyping with multiple models
-
-## Why it matters
-
-AI tools are powerful, but the real challenge is not choosing a model — it is managing the right tool at the right time across the whole workflow. ShortMind is designed to bring these capabilities together in one cleaner, more efficient system.
-
-## Contact
-
-Website: https://shortmind.ai
-GitHub: https://github.com/shortmind-ai/shortmind
-
-ShortMind — making AI tools more unified, efficient, and controllable.
-
----
-
-# ShortMind 中文说明
-
-ShortMind 是一个面向开发者与 AI 工作流的统一管理平台，帮助你集中管理多种 AI 编程助手、模型服务和工具配置，提升开发效率、降低切换成本，并提升团队协作质量。
-
-官方网站: https://shortmind.ai
-GitHub: https://github.com/shortmind-ai/shortmind
-
-English / 中文 双语支持
-- 英文主页: https://shortmind.ai
-- 中文主页: https://shortmind.ai/zh.html
-
-## ShortMind 能做什么
-
-- 在一个入口中统一管理多种 AI 编程助手
-- 快速切换不同 AI 工具，减少重复配置
-- 集中管理 API Key 和模型设置
-- 统计使用情况与成本趋势
-- 统一开发者与团队的 AI 工作流
-
-## 核心价值
-
-- 更快切换不同工具
-- 更清晰地管理模型和成本
-- 降低配置与安全风险
-- 让团队的 AI 使用方式更统一
-
-## 项目结构
+站点无需 Node.js、构建框架或客户端 JavaScript。运行以下命令后访问 `http://localhost:8000`：
 
 ```bash
-shortmind/
-├── README.md
-├── index.html
-├── zh.html
-├── assets/
-│   └── og-image.png
-└── docs/
-    └── ...
+python -m http.server 8000
 ```
 
-## 适用场景
+修改 `scripts/build_site.py` 中的双语文案后重新生成页面。脚本需要 Python 3.9+ 与 Pillow（`python -m pip install Pillow`）：
 
-- 个人开发者同时使用多种 AI 助手
-- 团队协同管理 AI 工作流
-- 工程团队统一 AI 工具标准
-- 多模型探索与原型开发
+```bash
+python scripts/build_site.py --pages-only
+```
 
-## 为什么重要
+重新压缩图片时，传入包含原始 PNG 与「shortmind宣传物料-中英文」子目录的物料路径：
 
-AI 工具很强大，但真正的难点不是“选哪个模型”，而是“在整个工作流中何时使用哪个工具”。ShortMind 就是要把这些能力统一到一个更清晰、更高效的系统中。
+```bash
+python scripts/build_site.py --materials "你的品牌物料目录"
+```
 
-## 联系方式
+## GitHub Pages 部署
 
-官网: https://shortmind.ai
-GitHub: https://github.com/shortmind-ai/shortmind
+账号主页 `https://shortmindai.github.io/` 对应的仓库必须命名为 `shortmindai.github.io`。将本站文件放在该仓库根目录，在 **Settings → Pages** 选择 **Deploy from a branch → main → / (root)**，保存后等待部署成功。`.nojekyll` 用于直接发布静态文件。
 
-ShortMind — 让 AI 工具更统一、更高效、更可控。
+当前 Git remote 指向 `ShortMindAI/shortmindai.github.io`，与账号主页地址一致。部署到其他地址时，要同步调整脚本中的 `BASE`、`robots.txt`、`sitemap.xml` 及 `404.html` 的根路径，使链接与 canonical 符合实际网址。
+
+## SEO 与加载优化
+
+- 页面正文直接包含在 HTML 中，使用语义化标题、导航与 FAQ。
+- 中英文页面分别提供标题、描述、canonical 和互相对应的 `hreflang`。
+- 包含 Organization、WebPage、FAQPage JSON-LD，以及 Open Graph / Twitter 分享信息。结构化数据不保证搜索结果展示形式。
+- 图片采用压缩 WebP 与响应式 `srcset`；首屏图片高优先级，后续截图延迟加载，显式声明尺寸以减少布局跳动。
+- 社交分享图使用 JPEG 兼容预览服务；采用系统字体，无第三方脚本或前端运行时。
+
+ShortMind — 让已有内容，拥有新的生命力。

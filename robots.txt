@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shortmind-ai.github.io/sitemap.xml
+Sitemap: https://shortmindai.github.io/sitemap.xml
