@@ -1,6 +1,6 @@
 # ShortMind
 
-ShortMind 是一个面向开发者与 AI 工作流的统一管理平台，帮助你集中管理多种 AI 编程助手、模型服务和工具配置，提升开发效率、降低切换成本，并提升团队协作质量。
+ShortMind 是一个面向开发者与 AI 工作流的统一管理平台，帮助你集中管理多种 AI 编程助手、模型服务和工具配置，提升开发效率、降低切换成本，并提升团队协作质量 。
 
 Official Website: https://shortmind.ai
 GitHub: https://github.com/shortmind-ai/shortmind
